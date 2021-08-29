@@ -174,6 +174,7 @@ svg {
     height: 300px;
     margin: 0 auto;
     margin-top: -350px;
+    letter-spacing: 15px;
 }
 
 .text-copy {
@@ -186,27 +187,27 @@ svg {
 }
 
 .text-copy:nth-child(1){
-	stroke: #5438DC;
+	stroke: #32CBFF /*5438DC*/;
 	animation-delay: -1;
 }
 
 .text-copy:nth-child(2){
-	stroke: #32CBFF;
+	stroke: #5f6aff;
 	animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-	stroke: #E56399;
+	stroke: #54DEFD;
 	animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-	stroke: #5f6aff;
+	stroke: #5438DC;
 	animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-	stroke: #33CA7F;
+	stroke: #E56399;
 	animation-delay: -5s;
 }
 
