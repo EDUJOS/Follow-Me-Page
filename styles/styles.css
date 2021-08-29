@@ -245,3 +245,14 @@ svg {
   margin-left: 4rem;
   margin-top: -500px;
 }
+
+/*Discord Hover*/
+
+.discord {
+  opacity: 0;
+  transition: .5s opacity;
+}
+
+.discord:hover {
+  opacity: 100;
+}
