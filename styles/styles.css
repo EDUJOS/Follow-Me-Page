@@ -206,6 +206,13 @@ h1 {
   /* position: relative; */
 }
 
+@media screen and (max-width: 979px) {
+  .ch {
+    display: flex;
+    padding-top: 800px;
+  }
+}
+
 svg {
   display: block;
   font: 100px 'Montserrat';
