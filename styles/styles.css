@@ -199,6 +199,12 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+@media screen and (max-width: 979px) {
+  h1 {
+    top: 10%;
+  }
+}
+
 /*Animación del chuchín*/
 
 .ch {
