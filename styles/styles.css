@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #262626;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  ul li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+  ul li a {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 100px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #666;
+    transition: .5s;
+  }
+  
+  .spo:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #1ED760;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  .so:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #FF6F00;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  .app:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #FF6281;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  .ig:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #82259F;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  .spo:hover:before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #1ED760;
+  }
+  
+  .so:hover:before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #FF6F00;
+  }
+  
+  .app:hover:before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #FF6281;
+  }
+  
+  .ig:hover:before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #82259F;
+  }
+  
+    .spo:hover {
+        color: #1ED760;
+        box-shadow: 0 0 5px #1ED760;
+    } 
+  
+    .so:hover {
+        color: #FF6F00;
+        box-shadow: 0 0 5px #FF6F00;
+    }
+  
+    .app:hover {
+        color: #FF6281;
+        box-shadow: 0 0 5px #FF6281;
+    }
+  
+    .ig:hover {
+        color: #82259F;
+        box-shadow: 0 0 5px #82259F;
+    }
+  
+  h1 {
+    color: #666;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
