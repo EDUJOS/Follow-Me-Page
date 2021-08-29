@@ -248,11 +248,11 @@ svg {
 
 /*Discord Hover*/
 
-.discord {
+#diis {
   opacity: 0;
   transition: .5s opacity;
 }
 
-.discord:hover {
+#diis:hover {
   opacity: 100;
 }
