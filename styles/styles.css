@@ -165,3 +165,82 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  /*Animación del chuchín*/
+svg {
+    display: block;
+    font: 100px 'Montserrat';
+    width: 990px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: -350px;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 3px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #5438DC;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #32CBFF;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #E56399;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #5f6aff;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #33CA7F;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+.sda {
+  margin: -8px;
+  margin-top: 300px;
+  background: linear-gradient(-90deg, #34F6F2, #7D53DE);
+  /*background-color: #4BC6B9/*#F15025*/;
+  height: 700px;
+  width: px;
+}
+
+.chucho {
+  background: linear-gradient(90deg, #34F6F2, #7D53DE);
+  /* -webkit-background-clip: text; */
+  background-clip: text;
+  color: transparent;
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  width: 800px;
+  margin: 0 auto; 
+  margin-top: 200px;
+  padding: 50px;
+}
+
+.f1 {
+  background-color: #1D1E22;
+  height: 25rem;
+  width: 15rem;
+  margin-left: 4rem;
+  margin-top: -500px;
+}
