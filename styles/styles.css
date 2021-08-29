@@ -17,7 +17,7 @@ ul {
 @media screen and (max-width: 979px) {
   .ulss ul{
     display: block;
-    padding-top: 110px;
+    padding-top: 90px;
   }
 }
 
