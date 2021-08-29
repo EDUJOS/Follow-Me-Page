@@ -17,6 +17,7 @@ ul {
 @media screen and (max-width: 979px) {
   .ulss ul{
     display: block;
+    padding-top: 100px;
   }
 }
 
@@ -293,4 +294,10 @@ transition: .5s opacity;
 
 #diis:hover {
 opacity: 100;
+}
+
+@media screen and (max-width: 979px) {
+  .discord {
+    display: none;
+  }
 }
